@@ -5,10 +5,10 @@
   become: yes
   become_user: root
   tasks:
-    - name: ensure wireshark is at the latest version
+    - name: delete wireshark
       yum:
         name: wireshark
-        state: latest
+        state: removed
    
 
 # -----------------------------------------------------------
