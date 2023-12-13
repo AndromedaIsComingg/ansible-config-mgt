@@ -1,0 +1,24 @@
+---
+- name: remove wireshark (yum)
+  hosts: webservers, nfs, db
+  become: yes
+  tasks:
+    - name: remove wireshark
+      yum:
+        name: wireshark
+        state: removed
+
+- name: update LB server (apt)
+  hosts: lb
+  remote_user: ubuntu
+  become: yes
+  become_user: root
+  tasks:
+    - name: delete wireshark
+      apt:
+        name: wireshark-qt
+        state: absent
+        autoremove: yes
+        purge: yes
+        autoclean: yes
+        

@@ -1,0 +1,14 @@
+2023-11-28 12:29:56.021 [info] Extension host with pid 19785 started
+2023-11-28 12:29:56.036 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d165b1a35fe49e71ebb7396c0c10341c/vscode.lock': Lock acquired.
+2023-11-28 12:29:58.203 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*'
+2023-11-28 12:29:58.619 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-11-28 12:29:59.635 [info] Eager extensions activated
+2023-11-28 12:29:59.636 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-28 12:29:59.636 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-28 12:30:00.304 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-11-28 12:30:03.295 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-11-28 13:02:58.907 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-11-28 13:16:33.354 [info] Extension host terminating: received terminate message from renderer
+2023-11-28 13:16:33.355 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/d165b1a35fe49e71ebb7396c0c10341c/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-11-28 13:16:33.400 [info] Extension host with pid 19785 exiting with code 0

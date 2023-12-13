@@ -1,0 +1,4 @@
+Listening on 127.0.0.1:34915
+looking for token a7908ca69b31, got Some("a7908ca69b31")
+[2023-12-01 12:05:01] info Disposed of connection to running server.
+[2023-12-01 12:06:07] info Disposed of connection to running server.
